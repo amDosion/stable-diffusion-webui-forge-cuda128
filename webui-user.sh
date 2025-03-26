@@ -25,7 +25,9 @@
 #export LAUNCH_SCRIPT="launch.py"
 
 # install command for torch
-export TORCH_COMMAND="pip install torch==2.6.0+cu126 torchvision==0.17.0+cu126 --extra-index-url https://download.pytorch.org/whl/cu126"
+# 在 webui-user.sh 中替换 TORCH_COMMAND
+export TORCH_COMMAND="pip install torch==2.6.0+cu128 torchvision==0.22.0+cu128 --extra-index-url https://download.pytorch.org/whl/nightly/cu128"
+
 
 # Requirements file to use for stable-diffusion-webui
 #export REQS_FILE="requirements_versions.txt"
