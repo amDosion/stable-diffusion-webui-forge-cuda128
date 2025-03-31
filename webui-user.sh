@@ -25,7 +25,7 @@
 #export LAUNCH_SCRIPT="launch.py"
  
 # install command for torch
-#export TORCH_COMMAND="pip install --pre torch==2.8.0.dev20250326+cu128 \
+export TORCH_COMMAND="pip install --pre torch==2.8.0.dev20250326+cu128 \
     torchvision==0.22.0.dev20250326+cu128 \
     torchaudio==2.6.0.dev20250326+cu128 \
     torch-tensorrt==2.7.0.dev20250326+cu128 \
