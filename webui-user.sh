@@ -25,7 +25,7 @@
 #export LAUNCH_SCRIPT="launch.py"
  
 # install command for torch
-export TORCH_COMMAND="pip install --pre torch==2.8.0.dev20250326+cu128 --extra-index-url https://download.pytorch.org/whl/nightly/cu128"
+export TORCH_COMMAND="pip install torch==2.6.0 --extra-index-url https://download.pytorch.org/whl/cu126"
 
 # Requirements file to use for stable-diffusion-webui
 #export REQS_FILE="requirements_versions.txt"
